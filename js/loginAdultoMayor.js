@@ -5,7 +5,7 @@ $(document).ready(function(){
         console.log(rut);
 
         var settings = {
-            "url": "http://localhost:3000/auth/login-adulto",
+            "url": "https://remember-meee.herokuapp.com/auth/login-adulto",
             "method": "POST",
             "timeout": 0,
             "headers": {

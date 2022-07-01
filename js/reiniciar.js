@@ -10,7 +10,7 @@ $(document).ready(function(){
        const params = Object.fromEntries(urlSearchParams.entries());
 
         var settings = {
-            "url": "http://localhost:3000/auth/reset",
+            "url": "https://remember-meee.herokuapp.com/auth/reset",
             "method": "POST",
             "timeout": 0,
             "headers": {

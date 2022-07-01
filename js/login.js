@@ -8,7 +8,7 @@ $(document).ready(function(){
         console.log(password);
 
         var settings = {
-            "url": "http://localhost:3000/auth/login",
+            "url": "https://remember-meee.herokuapp.com/auth/login",
             "method": "POST",
             "timeout": 0,
             "headers": {

@@ -11,7 +11,7 @@ $(document).ready(function () {
   $('#telefonoUsuarioAdulto').html(usuarioAdultoMayor.telefono);
 
   var settings = {
-    "url": "http://localhost:3000/medicamento/" + usuarioAdultoMayor.id,
+    "url": "https://remember-meee.herokuapp.com/medicamento/" + usuarioAdultoMayor.id,
     "method": "GET",
     "timeout": 0,
     "headers": {

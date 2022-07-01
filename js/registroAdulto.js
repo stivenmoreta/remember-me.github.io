@@ -30,7 +30,7 @@ $(document).ready(function () {
     console.log(telefono);
 
     var settings = {
-      url: "http://localhost:3000/adulto-mayor/create",
+      url: "https://remember-meee.herokuapp.com/adulto-mayor/create",
       method: "POST",
       timeout: 0,
       headers: {

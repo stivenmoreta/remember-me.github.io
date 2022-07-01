@@ -14,7 +14,7 @@ $(document).ready(function () {
         e.preventDefault()
         console.log("enviando historial")
         var settings = {
-            "url": "http://localhost:3000/medicamento/"+usuarioAdultoMayor.id+"/historial",
+            "url": "https://remember-meee.herokuapp.com/medicamento/"+usuarioAdultoMayor.id+"/historial",
             "method": "POST",
             "timeout": 0,
             "headers": {

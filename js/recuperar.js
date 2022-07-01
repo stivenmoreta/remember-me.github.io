@@ -5,7 +5,7 @@ $(document).ready(function(){
         console.log(email);
 
         var settings = {
-            "url": "http://localhost:3000/auth/recover",
+            "url": "https://remember-meee.herokuapp.com/auth/recover",
             "method": "POST",
             "timeout": 0,
             "headers": {

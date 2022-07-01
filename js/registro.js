@@ -24,7 +24,7 @@ $(document).ready(function() {
         console.log(password);
 
         var settings = {
-            "url": "http://localhost:3000/auth/register",
+            "url": "https://remember-meee.herokuapp.com/auth/register",
             "method": "POST",
             "timeout": 0,
             "headers": {

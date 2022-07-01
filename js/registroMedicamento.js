@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 
   var settings = {
-    "url": "http://localhost:3000/adulto-mayor/findAll",
+    "url": "https://remember-meee.herokuapp.com/adulto-mayor/findAll",
     "method": "GET",
     "timeout": 0,
     headers: {
@@ -49,7 +49,7 @@ $(document).ready(function () {
     console.log(fechaTermino);
 
     var settings = {
-      "url": "http://localhost:3000/medicamento/"+abuelo.id,
+      "url": "https://remember-meee.herokuapp.com/medicamento/"+abuelo.id,
       "method": "POST",
       "timeout": 0,
       "headers": {
