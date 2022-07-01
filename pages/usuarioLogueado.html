@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="../js/usuarioLogueado.js"></script>
+    <link rel="stylesheet" href="../css/final.css">
+    <title>Usuario</title>
+
+</head>
+
+<body class="body1">
+
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <form class=" formulario-login fondo-login2" action="#">
+                <h1 class="titulo1">Bienvenido</h1>
+                <h1 class="titulo2" id="nombreUsuario"></h1>
+                <h1 class="titulo2">Selecciona una opcion</h1>
+
+                <select class="selector" id="selector" name="selector">
+                    <option value="registrarAdulto">Registrar adulto mayor</option>
+                    <option value="fichaAdulto">Ficha adulto mayor</option>
+                </select>
+
+                <button class="button4" id="aceptarSelector" type="submit">Aceptar</button>
+                <button class="button4" type="submit" formaction="loginAdultoMayor.html">Iniciar sesion adulto mayor</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

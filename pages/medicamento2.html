@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
+    <link rel="stylesheet" href="../css/final.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="../js/registroMedicamento.js"></script>
+
+    <title>Ingresar medicamento</title>
+
+</head>
+
+
+<body class="body1">
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+
+
+            <form class="formulario-registro" id="registroMedicamento" method="post" action="#">
+
+                <h1 class="titulo1">Ingresar medicamento</h1>
+                <h1 class="titulo2">Ingrese todos los campos obligatorios*</h1>
+
+
+                <!-- nombre -->
+
+                <label for="">Nombre*</label>
+                <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z0-9]{3,20}"
+                    title="Debe ingresar un medicamento">
+
+                <!-- dosis -->
+
+                <label for="">Dosis*</label>
+                <input type="text" name="dosis" id="dosis" required title="Debe ingresar una dosis">
+
+                <!-- horario -->
+
+                <label for="">Horario*</label>
+                <input type="time" name="horario" id="horario" required pattern="" title="Debe ingresar horario">
+
+                <!-- fecha de inicio -->
+
+                <label for="">Fecha de inicio</label>
+                <input type="date" name="fechaInicio" id="fechaInicio" pattern=""
+                    title="Debe ingresar un fecha de inicio">
+
+
+                <!-- fecha de termino -->
+
+                <label for="">Fecha de termino</label>
+                <input type="date" name="fechaTermino" id="fechaTermino" title="Debe fecha de termino"><br><br>
+
+                <!-- aceptar -->
+
+                <button class="button2" id="ingresarMedicamento" type="submit">Aceptar</button>
+
+                <!-- inicio -->
+                <a class="a" href="../index.html">Volver al incio</a>
+
+            </form>
+        </div>
+</body>
+
+</html>

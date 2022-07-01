@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
+    <link rel="stylesheet" href="../css/final.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="../js/login.js"></script>
+
+    <title>login</title>
+</head>
+
+<body class="body1">
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <form class="formulario-login" name="login" method="post" action="#">
+                <div class="">
+                    <h1 class="titulo1">Iniciar sesion</h1>
+                    <h2 class="titulo2">Ingrese los datos obligatorios*</h2>
+
+                    <!-- email -->
+                    <label for="">Email*</label>
+                    <input type="email" name="email" id="email" placeholder="Correo@correo.cl" required
+                        title="Debe ser un correo válido">
+
+                    <!-- contraseña -->
+                    <label for="">Contraseña*</label>
+                    <input type="password" name="contraseña" id="password" required pattern="{8,30}"
+                        placeholder="Contraseña" title="Debe tener minimo 8 caracteres">
+
+                    <button class="button3" id="iniciarSesion" type="submit" formaction="usuarioLogueado.html">Aceptar</button>
+                    <a href="recuperarContraseña.html">Recuperar contraseña</a>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
